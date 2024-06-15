@@ -24,6 +24,24 @@ https://www.tooplate.com/view/2115-marvel
 
 -->
 <style>
+  .custom-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background-color: #FFFFE0; /* Light Yellow */
+    color: black; /* Change text color to black for better readability */
+}
+
   .project-info {
             position: relative;
             display: inline-block;
@@ -54,6 +72,17 @@ https://www.tooplate.com/view/2115-marvel
         .project-info:hover .hover-text {
             display: block;
         }
+
+        p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* Apply the glowing effect on hover */
+    p strong:hover {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 55px #ff00ff, 0 0 75px #ff00ff;
+      transition: text-shadow 0.3s ease-in-out;
+    } 
         </style>
   </head>
   <body>
@@ -119,7 +148,10 @@ https://www.tooplate.com/view/2115-marvel
                         <h1 class="animated animated-text">
                             <span class="mr-2">Hey folks, I'm</span>
                                 <div class="animated-info">
-                                    <span class="animated-item">Sakthi Santhosh </span>
+                                    <!-- <span class="animated-item">Sakthi Santhosh </span> -->
+                                    <div class="animated-item">
+                                      <span class="gradient-text">Sakthi Santhosh</span>
+                                    </div>
                                     <!-- <span class="animated-item">Web Designer</span>
                                     <span class="animated-item">UI Specialist</span> -->
                                 </div>
@@ -158,37 +190,42 @@ https://www.tooplate.com/view/2115-marvel
                       <div class="owl-carousel owl-theme">
                         <div class="item">
                           <div class="project-info">
-                            <img src="images/project/1.jpg" class="img-fluid" alt="project image">
-                            <div class="hover-text"><a href="https://github.com/Sakthi121/Care-Sync">Click here for Github</a></div>
+                            <img src="images/project/11.png" class="img-fluid" alt="project image">
+                            <div class="hover-text"><a href="https://github.com/Sakthi121/Care-Sync" target="_blank">Click here for Github</a></div>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
                             <img src="images/project/2.jpg" class="img-fluid" alt="project image">
-                            <div class="hover-text"><a href="https://github.com/Sakthi121/MediSwap-Intelligent-Medicine-Substitute-Recommendation-System">Click here for Github</a></div>
+                            <div class="hover-text"><a href="https://github.com/Sakthi121/MediSwap-Intelligent-Medicine-Substitute-Recommendation-System" target="_blank">Click here for Github</a></div>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <img src="images/project/image.png" class="img-fluid" alt="project image">
-                            <div class="hover-text"><a href="https://github.com/Sakthi121/GrasslandFirePrediction"> here for Github</a></div>
+                            <img src="images/project/image.png" a href="https://drive.google.com/file/d/1cUI4eEc1wSnMTUqOEOvMrpE-ypAbEOOa/view?usp=drive_link" class="img-fluid" alt="project image"></a>
+                            
+                            <div class="hover-text"><a href="https://github.com/Sakthi121/GrasslandFirePrediction" target="_blank"> Click here for Github</a></div>
+                          <!-- <br> -->
+                          <!-- <div class="hover-text"><a href="https://github.com/Sakthi121/GrasslandFirePrediction" target="_blank"> Click here for Github</a></div> -->
+                          </div>
+                        </div>
+
+                         <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/image1.png" class="img-fluid" alt="project image">
+                            <div class="hover-text"><a href="https://github.com/Sakthi121/Nunnari-Labs---Task" target="_blank"> Click here for Github</a></div>
+                          
                           </div>
                         </div>
 
                         <!-- <div class="item">
                           <div class="project-info">
-                            <img src="images/project/1c.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
                             <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
                           </div>
-                        </div> -->
-                      </div>
+                        </div> 
+                      </div> -->
 
                   </div>
                 </div>
@@ -321,12 +358,21 @@ https://www.tooplate.com/view/2115-marvel
                 <div class="skills">
                
                   <p>
-                      <strong>Language:</strong> Java | C | C++ | Python<br>
-                      <strong>Tools:</strong> Github, VS Code, Octoparse, PowerBI, Excel<br>
-                      <strong>Query Language:</strong> MySQL, MongoDB<br>
-                      <strong>Core Concepts:</strong> OOPS, DBMS, Generative AI<br>
-                      <strong>Web Technologies:</strong> HTML, CSS, JavaScript<br>
-                      <strong>Libraries:</strong> Numpy, Pandas, Matplotlib, Scikit-Learn,Tensor Flow
+                    <strong>Language:</strong> Java | C | C++ | Python<br>
+                    <strong>Tools:</strong> Github, VS Code, Octoparse, PowerBI, Excel<br>
+                    <strong>Query Language:</strong> MySQL, MongoDB<br>
+                    <strong>Core Concepts:</strong> OOPS, DBMS, Generative AI<br>
+                    <strong>Web Technologies:</strong> HTML, CSS, JavaScript<br>
+                    <strong>Libraries:</strong> Numpy, Pandas, Matplotlib, Scikit-Learn, TensorFlow
+                  </p>
+                
+              </div>
+              <div class="skills">
+                <h2 class="mb-4">Coding Profiles</h2>
+                <div class="custom-btn-group mt-4">
+                  <a href="https://leetcode.com/u/21cs121_sece/" target=”_blank” class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Leetcode</a>
+                  <a href="https://www.hackerrank.com/profile/sakthisanthosh_1" target=”_blank” class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Hacker Rank</a>
+                </div>
                 
               </div>
               
@@ -341,10 +387,11 @@ https://www.tooplate.com/view/2115-marvel
   <!--CERTIFICATES-->
   <section class="certificates py-5 d-lg-flex justify-content-center align-items-center" id="certificates">
     <div class="container">
+      <h2 class="mb-1 text-center">Certificates <br><br></h2>
         <div class="row">
 
             <div class="col-lg-6 col-12">
-              <h2 class="mb-4">Certificates</h2>
+             
 
                 <div class="timeline">
                     <div class="timeline-wrapper">
@@ -352,7 +399,7 @@ https://www.tooplate.com/view/2115-marvel
                               <span>2024</span>
                          </div>
                          <div class="timeline-info">
-                              <h3><span>Mastering AI Innovation - Building and Fine-tuning Generative AI Applications with Gemin</span></h3>
+                              <h3><span>Mastering AI Innovation - Building and Fine-tuning Generative AI Applications with Gemini</span></h3>
                               <p>Udemy</p>
                             </div>
                     </div>
